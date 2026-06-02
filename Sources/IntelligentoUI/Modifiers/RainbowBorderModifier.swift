@@ -1,4 +1,4 @@
-```swift id="kksj90"
+
 import SwiftUI
 
 public struct RainbowBorderModifier: ViewModifier {
@@ -68,4 +68,4 @@ public struct RainbowBorderModifier: ViewModifier {
         }
     }
 }
-```
+
