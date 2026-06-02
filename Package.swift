@@ -1,4 +1,4 @@
-```swift
+
 // swift-tools-version: 5.9
 
 import PackageDescription
@@ -21,7 +21,6 @@ let package = Package(
 
     targets: [
 
-        // Main Framework
         .target(
             name: "IntelligentoUI",
             resources: [
@@ -29,15 +28,6 @@ let package = Package(
             ]
         ),
 
-        // Example / Preview App
-        .executableTarget(
-            name: "IntelligentoUIDemo",
-            dependencies: [
-                "IntelligentoUI"
-            ]
-        ),
-
-        // Unit Tests
         .testTarget(
             name: "IntelligentoUITests",
             dependencies: [
@@ -46,4 +36,4 @@ let package = Package(
         )
     ]
 )
-```
+
